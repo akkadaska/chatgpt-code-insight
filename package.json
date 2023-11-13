@@ -1,0 +1,28 @@
+{
+  "name": "chatgpt-code-insight",
+  "version": "0.0.1",
+  "description": "A specialized tool that assists users by answering their questions, reviewing code, and suggesting relevant code snippets based on the context derived from users' project directory structures and the contents of their files using OpenAI's ChatGPT API.",
+  "author": "Daisuke Akazawa",
+  "license": "MPL-2.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "peerDependencies": {
+    "openai": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,2 @@
+# ChatGPT Code Insight
+A specialized tool that assists users by answering their questions, reviewing code, and suggesting relevant code snippets based on the context derived from users' project directory structures and the contents of their files using OpenAI's ChatGPT API.
